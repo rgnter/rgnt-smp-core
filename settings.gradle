@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven{ url = "https://repo.papermc.io/repository/maven-public/" }
+    }
+}
+
+rootProject.name = 'rgnt-smp'
+
+include 'api'
+include 'plugin'
+

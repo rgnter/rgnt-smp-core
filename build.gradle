@@ -1,0 +1,7 @@
+plugins {
+    id 'io.freefair.lombok'              version '6.5.1' apply false
+    id 'com.github.johnrengelman.shadow' version '7.1.2' apply false
+}
+
+group 'xyz.rgnt.smp'
+version '1.0-dev'
